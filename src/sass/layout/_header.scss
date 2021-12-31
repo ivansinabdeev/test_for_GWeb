@@ -1,0 +1,15 @@
+.header-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-nav-section {
+  display: flex;
+}
+.header-nav-section-item {
+  margin-right: 12px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}
