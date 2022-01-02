@@ -1,8 +1,27 @@
-.blog {
+// -----------------------mobile--------------
+
+.blog-description {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #0284d0;
-  color: #ffffff;
+  background-color: var(--contener-color-blog);
+  color: var(--secondary-text-color);
 }
 
 // .blog-img {}
+
+// -------------------tablet---------------------
+
+@media screen and (min-width: 767px) {
+  .blog {
+    display: flex;
+  }
+}
+
+// -----------------------desktop--------------------
+
+@media screen and (min-width: 1200px) {
+  .blog-description {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+}

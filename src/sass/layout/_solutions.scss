@@ -1,7 +1,26 @@
+// -----------------------mobile--------------
+// .solutions {}
 // .solutions-img {}
-.solutions {
+.solutions-description {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #28a745;
-  color: #ffffff;
+  background-color: var(--acent-color);
+  color: var(--secondary-text-color);
+}
+
+// -------------------tablet---------------------
+
+@media screen and (min-width: 767px) {
+  .solutions {
+    display: flex;
+  }
+}
+
+// -----------------------desktop--------------------
+
+@media screen and (min-width: 1200px) {
+  .solutions-description {
+    padding-top: 84px;
+    padding-bottom: 84px;
+  }
 }

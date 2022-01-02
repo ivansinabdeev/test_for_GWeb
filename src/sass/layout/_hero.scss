@@ -1,11 +1,50 @@
+// -----------------------mobile--------------
+
 .hero {
   padding-top: 44px;
   padding-bottom: 95px;
   text-align: center;
 }
 .hero-title {
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 1.27;
+  color: var(--hero-color-text);
+
   margin-bottom: 16px;
 }
 .hero-slogan {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.67;
+  color: var(--hero-color-text);
+
   margin-bottom: 27px;
+}
+
+// -------------------tablet---------------------
+
+@media screen and (min-width: 767px) {
+  .hero {
+    padding-top: 357px;
+    padding-bottom: 412px;
+  }
+  .hero-title {
+    font-size: 55px;
+    line-height: 1.2;
+
+    margin-bottom: 25px;
+  }
+  .hero-slogan {
+    margin-bottom: 29px;
+  }
+}
+
+// -----------------------desktop--------------------
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 229px;
+    padding-bottom: 284px;
+  }
 }

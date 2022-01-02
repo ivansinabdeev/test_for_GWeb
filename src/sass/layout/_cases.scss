@@ -1,3 +1,4 @@
+// -----------------------mobile--------------
 .cases {
   padding-top: 50px;
   padding-bottom: 46px;
@@ -11,4 +12,14 @@
   &:last-child {
     margin-bottom: 0px;
   }
+}
+
+// -------------------tablet---------------------
+
+@media screen and (min-width: 767px) {
+}
+
+// -----------------------desktop--------------------
+
+@media screen and (min-width: 1200px) {
 }

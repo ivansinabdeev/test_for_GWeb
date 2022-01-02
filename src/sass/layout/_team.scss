@@ -1,3 +1,5 @@
+// -----------------------mobile--------------
+
 .team {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -16,4 +18,30 @@
 }
 .team-member-job {
   margin-top: 11px;
+}
+
+// -------------------tablet---------------------
+
+@media screen and (min-width: 767px) {
+  .team {
+    padding-bottom: 60px;
+  }
+  .team-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .team-member-name {
+    margin-top: 14px;
+  }
+  .team-member-job {
+    margin-top: 12px;
+  }
+}
+
+// -----------------------desktop--------------------
+
+@media screen and (min-width: 1200px) {
+  .team-member-name {
+    margin-top: 11px;
+  }
 }

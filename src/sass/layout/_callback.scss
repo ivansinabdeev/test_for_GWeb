@@ -1,3 +1,7 @@
+// -----------------------mobile--------------
+.callback {
+  background-color: var(--background-callback-color);
+}
 // .callback-img {}
 .callback-form {
   display: flex;
@@ -5,9 +9,27 @@
   padding-top: 26px;
   padding-bottom: 30px;
 }
-.callback-form-imput {
-  margin-bottom: 36px;
-  &:last-child {
-    margin-bottom: 0px;
+.callback-form-input {
+  margin-bottom: 35px;
+
+  // &:last-child {
+  //   margin-top: 0px;
+  // }
+}
+
+// -------------------tablet---------------------
+
+@media screen and (min-width: 767px) {
+  .callback {
+    display: flex;
+  }
+}
+
+// -----------------------desktop--------------------
+
+@media screen and (min-width: 1200px) {
+  .callback-form {
+    padding-top: 78px;
+    padding-bottom: 82px;
   }
 }
