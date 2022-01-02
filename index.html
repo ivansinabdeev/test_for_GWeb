@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finance Ledger</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+    crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    
     <script src="https://kit.fontawesome.com/3a3571a51a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -12,7 +18,7 @@
     <header class="container"> 
         <div class="header">
             <nav class="header-nav">
-                <a class="link" href=""> <span>Finance</span> Ledger </a>
+                <a class="header-nav-section-link link" href="/index.html"> <span>Finance</span> Ledger </a>
                 <ul class="header-nav-section">
                     <li class="header-nav-section-item">Home</li>
                     <li class="header-nav-section-item">About</li>
@@ -24,123 +30,138 @@
         </div>
     </header>
      <main> <!-- Information -->
-        <section > <!-- Hero -->
-            <h1>The Sky Is The Limit</h1>
-            <p>We provide world class financial assistance</p>
-            <button type="button">> Read More</button>
+        <section class="container"> <!-- Hero -->
+            <div class="hero">
+                <h1 class="hero-title">The Sky Is The Limit</h1>
+                <p class="hero-slogan">We provide world class financial assistance</p>
+                <button class="button" type="button">> Read More</button>
+            </div>
         </section>
-        <section> <!-- Ouwer works -->
-            <div>
-                <ul>
-                    <li>
-                        <h2>Investmant Banking</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p>
+        <section class="container"> <!-- Ouwer works -->
+            <div class="works">
+                <ul class="works-list">
+                    <li class="works-item">
+                        <h2 class="works-item-title">Investmant Banking</h2>
+                        <p class="works-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p>
                     </li>
                     <li>
-                        <h2>Portfolio Manager</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p>
+                        <h2 class="works-item-title">Portfolio Manager</h2>
+                        <p class="works-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p>
                     </li>
                     <li>
-                        <h2>Tax & Custudio</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p>
+                        <h2 class="works-item-title">Tax & Custudio</h2>
+                        <p class="works-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p>
                     </li>
                 </ul>
             </div>
         </section>
         <section> <!-- Solutions -->
-            <div>
+            <div class="solutions-img">
                 <img src="" alt="">
             </div>
-            <div>
-                <h2>What you are looking for <span>We provide bespoke solutions</span> </h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam
-                aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?</p>
-                <button type="button">Read More</button>
+            <div class="solutions">
+                <div class="container">
+                    <h2 class="section-title-color">What you are looking for <span class="section-title-color-current">We provide bespoke solutions</span> </h2>
+                    <p class="section-text-color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam
+                        aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?</p>
+                    <button class="button" type="button">Read More</button>
+                </div>
             </div>
         </section>
-        <section> <!-- Cases -->
-            <h2>This is what we do <span>Business Cases</span> </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-            <ul>
-                <li>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <img src="" alt="">
-                </li>
-            </ul>
+        <section class="container"> <!-- Cases -->
+            <div class="cases">
+                <h2 class="section-title">This is what we do <span class="section-title-current">Business Cases</span> </h2>
+                <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+                <ul class="cases-img-list">
+                    <li class="cases-img">
+                        <img src="" alt="">
+                    </li>
+                    <li class="cases-img">
+                        <img src="" alt="">
+                    </li>
+                    <li class="cases-img">
+                        <img src="" alt="">
+                    </li>
+                    <li class="cases-img">
+                        <img src="" alt="">
+                    </li>
+                    <li class="cases-img">
+                        <img src="" alt="">
+                    </li>
+                    <li class="cases-img">
+                        <img src="" alt="">
+                    </li>
+                    <li class="cases-img">
+                        <img src="" alt="">
+                    </li>
+                    <li class="cases-img">
+                        <img src="" alt="">
+                    </li>
+                </ul>
+            </div>
         </section>
         <section> <!-- Blog -->
-            <div>
-                <h2>April 16 2020 <span>Blog Post One</span> </h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam
-                aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?
-                </p>
-                <button type="button">Read Our Blog</button>
-            </div>
-            <div>
+            <div class="blog-img">
                 <img src="" alt="">
             </div>
+            <div class="blog">
+                <div class="container">
+                    <h2 class="section-title-color">April 16 2020 <span class="section-title-color-current">Blog Post One</span> </h2>
+                    <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam
+                        aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?
+                    </p>
+                    <button class="button" type="button">Read Our Blog</button>
+                </div>
+            </div>
+            
         </section>
-        <section> <!-- Team -->
-            <h2>Who we are <span>Our Professional Team</span> </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-            <ul>
-                <li>
-                    <img src="" alt="">
-                    <h3>John Doe</h3>
-                    <p>President</p>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <h3>Jane Doe</h3>
-                    <p>Vice President</p>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <h3>Steve Smith</h3>
-                    <p>Marketing Head</p>
-                </li>
-            </ul>
+        <section class="container"> <!-- Team -->
+            <div class="team">
+                <h2 class="section-title">Who we are <span class="section-title-current">Our Professional Team</span> </h2>
+                <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+                <ul class="team-list">
+                    <li class="team-member">
+                        <img class="team-member-foto" src="" alt="">
+                        <h3 class="team-member-name">John Doe</h3>
+                        <p class="team-member-job">President</p>
+                    </li>
+                    <li class="team-member">
+                        <img class="team-member-foto" src="" alt="">
+                        <h3 class="team-member-name">Jane Doe</h3>
+                        <p class="team-member-job">Vice President</p>
+                    </li>
+                    <li class="team-member">
+                        <img class="team-member-foto" src="" alt="">
+                        <h3 class="team-member-name">Steve Smith</h3>
+                        <p class="team-member-job">Marketing Head</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section> <!-- Callback -->
-            <div>
+            <div class="callback-img">
                 <img src="" alt="">
             </div>
-            <form action="">
-                <p></p>
-                <input type="text" name="" id="">
-                <input type="text" name="" id="">
-                <button type="submit">Send</button>
+            <div class="container">
+            <form class="callback-form" action="">
+                    <h2 class="section-title">Request Callback</h2>
+                    <input class="callback-form-imput" type="text" name="name" id="name">
+                    <input class="callback-form-imput" type="text" name="email" id="email">
+                    <button class="button" type="submit">Send</button>
+                </div>
             </form>
         </section>
     </main>
-    <footer>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <p>Copyright © 2021 - FinanceLedger</p>
-        </ul>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-social-list">
+                <li class="footer-social-item"></li>
+                <li class="footer-social-item"></li>
+                <li class="footer-social-item"></li>
+                <li class="footer-social-item"></li>
+            </ul>
+            <p class="footer-rights">Copyright &#169 2021 - FinanceLedger</p>
+        </div>
     </footer>
     
 </body>

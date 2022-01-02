@@ -1,5 +1,6 @@
 // Utils
 @import "./utils/variables";
+@import "./utils/similar_styles";
 
 // Base
 @import "./base/base";
@@ -7,3 +8,11 @@
 
 /* Layout */
 @import "./layout/header";
+@import "./layout/hero";
+@import "./layout/owner_works";
+@import "./layout/solutions";
+@import "./layout/cases";
+@import "./layout/blog";
+@import "./layout/team";
+@import "./layout/callback";
+@import "./layout/footer";

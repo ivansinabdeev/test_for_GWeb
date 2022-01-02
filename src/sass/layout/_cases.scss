@@ -1,0 +1,14 @@
+.cases {
+  padding-top: 50px;
+  padding-bottom: 46px;
+  text-align: center;
+}
+.cases-text {
+  margin-bottom: 37px;
+}
+.cases-img {
+  margin-bottom: 7px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}

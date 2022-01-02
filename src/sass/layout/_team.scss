@@ -1,0 +1,19 @@
+.team {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+// .team-list {}
+.team-member {
+  margin-bottom: 10px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+// .team-member-foto {}
+.team-member-name {
+  margin-top: 15px;
+}
+.team-member-job {
+  margin-top: 11px;
+}

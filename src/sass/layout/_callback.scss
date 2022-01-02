@@ -1,0 +1,13 @@
+// .callback-img {}
+.callback-form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 26px;
+  padding-bottom: 30px;
+}
+.callback-form-imput {
+  margin-bottom: 36px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
