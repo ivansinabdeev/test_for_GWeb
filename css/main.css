@@ -165,8 +165,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../image/home/showcase.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../image/home/showcase.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../../src/image/home/showcase.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../../src/image/home/showcase.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -174,7 +174,7 @@ img {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .header-background {
-    background-image: url(../../image/home/showcase@2x.jpg);
+    background-image: url(../../../src/image/home/showcase@2x.jpg);
   }
 }
 
@@ -213,6 +213,7 @@ img {
   font-size: 32px;
   line-height: 1.32;
   font-style: 400;
+  color: var(--secondary-text-color);
 }
 
 .header-nav-section-link-current {
@@ -230,6 +231,7 @@ img {
   font-size: 16px;
   line-height: 1.6;
   font-style: 400;
+  color: var(--secondary-text-color);
   margin-right: 12px;
 }
 
@@ -241,14 +243,14 @@ img {
   .header-background {
     max-width: 768px;
     height: 1024px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../image/home/showcase.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../image/home/showcase.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../../src/image/home/showcase.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../../src/image/home/showcase.jpg);
   }
 }
 
 @media screen and (min-width: 767px) and (min-device-pixel-ratio: 2), screen and (min-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 767px) and (min-resolution: 192dpi), screen and (min-width: 767px) and (min-resolution: 2dppx) {
   .header-background {
-    background-image: url(../.../image/home/showcase@2x.jpg);
+    background-image: url(../../../src/image/home/showcase@2x.jpg);
   }
 }
 
@@ -289,14 +291,14 @@ img {
   .header-background {
     max-width: 1360px;
     height: 768px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(./image/home/showcase.jpg);
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./image/home/showcase.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../../src/image/home/showcase.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../../src/image/home/showcase.jpg);
   }
 }
 
 @media screen and (min-width: 1360px) and (min-device-pixel-ratio: 2), screen and (min-width: 1360px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1360px) and (min-resolution: 192dpi), screen and (min-width: 1360px) and (min-resolution: 2dppx) {
   .header-background {
-    background-image: url(./image/home/showcase@2x.jpg);
+    background-image: url(../../../src/image/home/showcase@2x.jpg);
   }
 }
 
