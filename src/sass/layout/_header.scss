@@ -5,12 +5,8 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url(./image/home/showcase.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../../image/home/showcase.jpg);
   // background-color: var(--background-hero-img);
   background-repeat: no-repeat;
   background-position: center;
@@ -20,7 +16,7 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .header-background {
-    background-image: url(./image/home/showcase@2x.jpg);
+    background-image: url(../../image/home/showcase@2x.jpg);
   }
 }
 
@@ -32,6 +28,10 @@
   flex-direction: column;
   align-items: center;
 }
+.header-nav-link {
+  display: flex;
+  align-items: center;
+}
 .header-nav-logo-icon {
   // display: block;
   width: 40px;
@@ -41,7 +41,7 @@
   font-size: 32px;
   line-height: 1.32;
   font-style: 400;
-  margin-bottom: 11px;
+
   // color: var(--secondary-text-color);
 }
 .header-nav-section-link-current {
@@ -49,6 +49,7 @@
 }
 .header-nav-section {
   display: flex;
+  margin-top: 11px;
 }
 .header-nav-section-item {
   font-size: 16px;
@@ -69,18 +70,14 @@
   .header-background {
     max-width: 768px;
     height: 1024px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)
-      ),
-      url(./image/home/showcase.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../../image/home/showcase.jpg);
   }
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .header-background {
-      background-image: url(./image/home/showcase@2x.jpg);
+      background-image: url(../.../image/home/showcase@2x.jpg);
     }
   }
   .header {
@@ -89,8 +86,11 @@
   .header-nav {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
+  }
+  .header-nav-section {
+    margin-top: 0px;
   }
   .header-nav-section-link {
     font-size: 35px;

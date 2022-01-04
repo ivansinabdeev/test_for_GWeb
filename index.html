@@ -19,12 +19,15 @@
         <div class="container">
             <div class="header">
                 <nav class="header-nav">
-                    <a class="header-nav-section-link link" href="/index.html">
+                    <div class="header-nav-link">
                         <svg class="header-nav-logo-icon">
-                            <use href="./image/icon/sprite.svg#icon-logo-book-open"></use>
+                            <use href="./src/image/icon/sprite.svg#icon-logo-book-open"></use>
                         </svg>
-                        <span class="header-nav-section-link-current">Finance</span>Ledger
-                    </a>
+                        <a class="header-nav-section-link link" href="/index.html">
+                            
+                            <span class="header-nav-section-link-current">Finance</span>Ledger
+                        </a>
+                    </div>
                     <ul class="header-nav-section">
                         <li class="header-nav-section-item">Home</li>
                         <li class="header-nav-section-item">About</li>
@@ -59,17 +62,27 @@
                     <li class="works-item">
                         <span class="works-item-icon">
                             <svg class="works-icon">
-                                <use href="./image/icon/sprite.svg#icon-instagram"></use>
+                                <use href="./src/image/icon/sprite.svg#icon-university"></use>
                             </svg>
                         </span>
                         <h2 class="works-item-title">Investmant Banking</h2>
                         <p class="works-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p>
                     </li>
                     <li class="works-item">
+                        <div class="works-item-icon">
+                            <svg class="works-icon">
+                                <use href="./src/image/icon/sprite.svg#icon-human-open"></use>
+                            </svg>
+                        </div>
                         <h2 class="works-item-title">Portfolio Manager</h2>
                         <p class="works-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p>
                     </li>
                     <li class="works-item">
+                        <div class="works-item-icon">
+                            <svg class="works-icon">
+                                <use href="./src/image/icon/sprite.svg#icon-pencil"></use>
+                            </svg>
+                        </div>
                         <h2 class="works-item-title">Tax & Custudio</h2>
                         <p class="works-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p>
                     </li>
@@ -78,7 +91,7 @@
         </section>
         <section class="solutions"> <!-- Solutions -->
             <!-- <div class="solutions-img"> -->
-                <picture>
+                <!-- <picture>
                     <source srcset="./image/index/desktop-img-1.webp 1x,
                     ./image/index/desktop-img-1@2x.webp 2x" media="(min-width: 1200px)" type="image/webp">
                     <source srcset="./image/index/desktop-img-1.jpg 1x,
@@ -91,8 +104,8 @@
                     ./image/home/people@2x.webp 2x" media="(min-width: 320px)" type="image/webp">
                     <source srcset="./image/home/people.jpg 1x,
                     ./image/home/people@2x.jpg 2x" media="(min-width: 320px)">
-                    <img src="./image/home/people.jpg" class="team-img" alt="Smile team">
-                </picture>
+                    <img src="./src/image/home/people.jpg" class="team-img" alt="Smile team">
+                </picture> -->
             <!-- </div> -->
             <div class="solutions-description">
                 <div class="container">
@@ -184,8 +197,8 @@
             <div class="container">
             <form class="callback-form">
                     <h2 class="section-title-current">Request Callback</h2>
-                    <input class="callback-form-input" type="text" name="name" id="name">
-                    <input class="callback-form-input" type="text" name="email" id="email">
+                    <input class="callback-form-input" type="text" name="name" id="name"  placeholder="Enter your name">
+                    <input class="callback-form-input" type="text" name="email" id="email"  placeholder="Enter email*">
                     <button class="button-color" type="submit">Send</button>
                 </form>
             </div>
@@ -194,13 +207,37 @@
     <footer class="footer">
         <div class="container">
             <ul class="footer-social-list">
-                <li class="footer-social-item"></li>
-                <li class="footer-social-item"></li>
-                <li class="footer-social-item"></li>
-                <li class="footer-social-item"></li>
+                <li class="footer-social-item">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer-social-link">
+                        <svg class="footer-social-icon">
+                                <use href="./src/image/icon/sprite.svg#icon-facebook"></use>
+                            </svg>
+                    </a>
+                </li>
+                <li class="footer-social-item">
+                    <a href="https://twitter.com/" target="_blank" class="footer-social-link">
+                        <svg class="footer-social-icon">
+                                <use href="./src/image/icon/sprite.svg#icon-twitter"></use>
+                            </svg>
+                    </a>
+                </li>
+                <li class="footer-social-item">
+                    <a href="https://www.youtube.com/" target="_blank" class="footer-social-link">
+                        <svg class="footer-social-icon">
+                                <use href="./src/image/icon/sprite.svg#icon-youtube"></use>
+                            </svg>
+                    </a>
+                </li>
+                <li class="footer-social-item">
+                    <a href="https://www.linkedin.com/" target="_blank" class="footer-social-link">
+                        <svg class="footer-social-icon">
+                                <use href="./src/image/icon/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                    </a>
+                </li>
             </ul>
-            <p class="footer-rights">Copyright &#169 2021 - FinanceLedger</p>
         </div>
+        <p class="footer-rights">Copyright &#169 2021 - FinanceLedger</p>
     </footer>
     
 </body>

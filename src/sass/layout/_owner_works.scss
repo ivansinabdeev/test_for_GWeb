@@ -10,6 +10,8 @@
 
 // }
 .works-item {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 18px;
 
   &:last-child {
@@ -17,14 +19,19 @@
   }
 }
 .works-item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  color: var(--acent-color);
+  background-color: var(--acent-color);
 }
 .works-icon {
   width: 34px;
   height: 34px;
+  fill: var(--secondary-text-color);
 }
 .works-item-title {
   font-weight: 400;
