@@ -326,6 +326,7 @@ img {
   .hero-title {
     font-size: 55px;
     line-height: 1.2;
+    margin-top: 100px;
     margin-bottom: 25px;
   }
   .hero-slogan {
@@ -460,24 +461,29 @@ img {
   }
 }
 
+.solutions {
+  background-color: var(--acent-color);
+}
+
 .solutions-description {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: var(--acent-color);
   color: var(--secondary-text-color);
 }
 
 @media screen and (min-width: 767px) {
-  .solutions {
-    display: block;
+  .solutions-contain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  .solutions-img {
-    width: 384px;
+  .team-img {
+    min-width: 50%;
     height: 564px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1360px) {
   .solutions-description {
     padding-top: 84px;
     padding-bottom: 84px;
