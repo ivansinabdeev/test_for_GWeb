@@ -1,9 +1,14 @@
 // -----------------------mobile--------------
-
+.blog {
+  background-color: var(--contener-color-blog);
+}
+.blog-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
 .blog-description {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: var(--contener-color-blog);
   color: var(--secondary-text-color);
 }
 
@@ -12,14 +17,36 @@
 // -------------------tablet---------------------
 
 @media screen and (min-width: 767px) {
-  .blog {
+  .blog-container {
     display: flex;
+    flex-direction: row;
+    flex-basis: calc(100% / 2);
+    height: 468px;
+  }
+  .blog-img-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  .blog-img {
+    min-width: 625px;
+    margin: 0 0 0 -120px;
   }
 }
 
 // -----------------------desktop--------------------
 
 @media screen and (min-width: 1200px) {
+  .blog-container {
+    height: 517px;
+  }
+  .blog-img-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  .blog-img {
+    width: 95%;
+    margin: 0 0 0 36px;
+  }
   .blog-description {
     padding-top: 112px;
     padding-bottom: 112px;

@@ -19,14 +19,34 @@
     margin-bottom: 0px;
   }
 }
-// .cases-img {}
 
 // -------------------tablet---------------------
 
 @media screen and (min-width: 767px) {
+  .second-container {
+    padding: 0 28px;
+  }
+  .cases-img-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: -4px;
+  }
+  .cases-item {
+    width: 172px;
+    height: 115px;
+    margin: 4px;
+
+    &:last-child {
+      margin-bottom: auto;
+    }
+  }
 }
 
 // -----------------------desktop--------------------
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1360px) {
+  .cases-item {
+    width: 320px;
+    height: 214px;
+  }
 }

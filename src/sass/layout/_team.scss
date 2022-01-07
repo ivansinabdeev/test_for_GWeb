@@ -12,11 +12,18 @@
     margin-bottom: 0px;
   }
 }
-// .team-member-foto {}
 .team-member-name {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.25;
+
   margin-top: 15px;
 }
 .team-member-job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+
   margin-top: 11px;
 }
 
@@ -24,11 +31,20 @@
 
 @media screen and (min-width: 767px) {
   .team {
-    padding-bottom: 60px;
+    padding-bottom: 140px; // ????
   }
   .team-list {
     display: flex;
-    justify-content: space-between;
+    margin: -10px;
+  }
+  .team-member {
+    width: 223px;
+    height: 148px;
+    margin: 10px;
+
+    &:last-child {
+      margin-bottom: auto;
+    }
   }
   .team-member-name {
     margin-top: 14px;
@@ -41,6 +57,10 @@
 // -----------------------desktop--------------------
 
 @media screen and (min-width: 1200px) {
+  .team-member {
+    width: 420px;
+    height: 280px;
+  }
   .team-member-name {
     margin-top: 11px;
   }

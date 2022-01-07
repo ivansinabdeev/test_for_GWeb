@@ -2,12 +2,6 @@
 .solutions {
   background-color: var(--acent-color);
 }
-// .solutions-img {
-//   display: block;
-// }
-// .team-img {
-
-// }
 .solutions-description {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -26,7 +20,7 @@
     width: 100%;
     overflow: hidden;
   }
-  .team-img {
+  .solutions-img {
     min-width: 845px;
     margin: 0 0 0 -240px;
   }
@@ -42,7 +36,7 @@
     width: 100%;
     overflow: hidden;
   }
-  .team-img {
+  .solutions-img {
     width: 100%;
     margin: -100px 0 0 -55px;
   }
