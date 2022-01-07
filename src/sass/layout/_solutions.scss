@@ -17,18 +17,35 @@
 // -------------------tablet---------------------
 
 @media screen and (min-width: 767px) {
-  .solutions-contain {
+  .solutions-container {
     display: flex;
+    flex-basis: calc(100% / 2);
+    height: 564px;
+  }
+  .solutions-img-wrapper {
+    width: 100%;
+    overflow: hidden;
   }
   .team-img {
-    min-width: 50%;
-    height: 564px;
+    min-width: 845px;
+    margin: 0 0 0 -240px;
   }
 }
 
 // -----------------------desktop--------------------
 
 @media screen and (min-width: 1360px) {
+  .solutions-container {
+    height: 460px;
+  }
+  .solutions-img-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  .team-img {
+    width: 100%;
+    margin: -100px 0 0 -55px;
+  }
   .solutions-description {
     padding-top: 84px;
     padding-bottom: 84px;

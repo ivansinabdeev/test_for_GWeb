@@ -7,12 +7,19 @@
 .cases-text {
   margin-bottom: 37px;
 }
-.cases-img {
+.cases-img-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cases-item {
+  max-width: 450px;
   margin-bottom: 7px;
   &:last-child {
     margin-bottom: 0px;
   }
 }
+// .cases-img {}
 
 // -------------------tablet---------------------
 
