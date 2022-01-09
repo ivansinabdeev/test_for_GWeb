@@ -29,7 +29,7 @@
 .header-nav-section-link-current {
   color: var(--acent-color);
 }
-.header-nav-section {
+.header-nav-section-list {
   display: flex;
   margin-top: 11px;
 }
@@ -37,13 +37,15 @@
   font-size: 16px;
   line-height: 1.6;
   font-style: 400;
-  color: var(--secondary-text-color);
 
   margin-right: 12px;
 
   &:last-child {
     margin-right: 0px;
   }
+}
+.header-nav-section-item-link {
+  color: var(--secondary-text-color);
 }
 
 // -------------------tablet---------------------
@@ -58,7 +60,7 @@
     align-items: center;
     justify-content: space-between;
   }
-  .header-nav-section {
+  .header-nav-section-list {
     margin-top: 0px;
   }
   .header-nav-section-link {
