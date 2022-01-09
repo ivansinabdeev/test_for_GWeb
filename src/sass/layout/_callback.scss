@@ -24,23 +24,40 @@
 
     color: var(--input-text-color);
   }
-
-  // &:last-child {
-  //   margin-top: 0px;
-  // }
 }
 
 // -------------------tablet---------------------
 
 @media screen and (min-width: 767px) {
-  .callback {
+  .callback-container {
     display: flex;
+    flex-basis: calc(100% / 2);
+    height: 349px;
+  }
+  .callback-img-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  .callback-img {
+    min-width: 525px;
+    margin: 0 0 0 -80px;
   }
 }
 
 // -----------------------desktop--------------------
 
 @media screen and (min-width: 1200px) {
+  .callback-container {
+    height: 460px;
+  }
+  .callback-img-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  .callback-img {
+    width: 100%;
+    margin: -20px 0 0 0;
+  }
   .callback-form {
     padding-top: 78px;
     padding-bottom: 82px;

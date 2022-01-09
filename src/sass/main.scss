@@ -1,18 +1,5 @@
-// Utils
-@import "./utils/variables";
-@import "./utils/similar_styles";
+@import "./utils/main";
 
-// Base
-@import "./base/base";
-@import "./base/container";
+@import "./base/main";
 
-/* Layout */
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/owner_works";
-@import "./layout/solutions";
-@import "./layout/cases";
-@import "./layout/blog";
-@import "./layout/team";
-@import "./layout/callback";
-@import "./layout/footer";
+@import "./layout/main";
