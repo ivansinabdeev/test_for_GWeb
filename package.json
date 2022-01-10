@@ -4,7 +4,9 @@
   "browserslist": "> 0.25%, not dead",
   "scripts": {
     "start": "parcel *.html -p 5500",
-    "build": "parcel build *.html"
+    "build": "parcel build *.html",
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy -p"
   },
   "repository": {
     "type": "git"
@@ -13,5 +15,9 @@
     "@parcel/transformer-sass": "^2.0.1",
     "parcel": "^2.0.1",
     "posthtml-include": "^1.7.2"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "lightbox2": "^2.11.3"
   }
 }

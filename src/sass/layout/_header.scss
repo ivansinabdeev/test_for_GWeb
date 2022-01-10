@@ -78,7 +78,27 @@
 // -----------------------desktop--------------------
 
 @media screen and (min-width: 1360px) {
+  .header-nav-link {
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
   .header-nav-section-item {
     margin-right: 38px;
+  }
+  .header-nav-section-item-link {
+    &:hover {
+      &:after {
+        position: relative;
+        content: "";
+        display: block;
+        bottom: -10px;
+        left: 0;
+        height: 2px;
+
+        background-color: var(--acent-color);
+      }
+    }
   }
 }
