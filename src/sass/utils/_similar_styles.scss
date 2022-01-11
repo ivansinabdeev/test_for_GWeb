@@ -16,6 +16,13 @@
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.06em;
+
+  transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    color: var(--another-text-color);
+    background-color: var(--secondary-text-color);
+  }
 }
 
 .button-color {
@@ -34,6 +41,12 @@
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.06em;
+
+  transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: var(--acent-color-hover);
+  }
 }
 
 .section-title {

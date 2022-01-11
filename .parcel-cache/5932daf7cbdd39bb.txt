@@ -1,4 +1,4 @@
-17029
+17041
 84C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\har-schema\lib\cookie.json132862269464623372 0
 69C:\Users\Ivan\Documents\GitHub\test_for_GWeb\src\partials\header.html132862384999718309 0
 108C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\es-abstract\2020\IsCompatiblePropertyDescriptor.js132862269485235414 0
@@ -15,7 +15,7 @@
 76C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\sha.js\.travis.yml132862269455156906 0
 108C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\intro.doc132862269478689177 0
 66C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\svgo\lib132862269478170564 1
-49C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist132862557986702257 1
+49C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist132862952120787662 1
 114C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\@parcel\package-manager\test\fixtures\empty\package.json132862269475417927 0
 75C:\Users\Ivan\Documents\GitHub\test_for_GWeb\src\image\home\contact@2x.webp132592462090000000 0
 85C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\@parcel\runtime-browser-hmr132862269465491210 1
@@ -31,7 +31,7 @@
 106C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\@swc\helpers\lib\_possible_constructor_return.js132862269475298248 0
 66C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\get-port132862269459664726 1
 78C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\yaml\types\binary.js132862269458088740 0
-73C:\Users\Ivan\Documents\GitHub\test_for_GWeb\src\sass\layout\_header.scss132862557985344527 0
+73C:\Users\Ivan\Documents\GitHub\test_for_GWeb\src\sass\layout\_header.scss132862952118693522 0
 53C:\Users\Ivan\Documents\GitHub\test_for_GWeb\src\sass132862447935246734 1
 82C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\htmlparser2\lib\index.js132862269457340498 0
 83C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\pako\lib\zlib\gzheader.js132862269466309028 0
@@ -240,7 +240,7 @@
 100C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\jsdom\lib\jsdom\living\generated\Screen.js132862269482022035 0
 85C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\nanoid\non-secure\index.cjs132862269461882390 0
 92C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\core-js\features\array\flat-map.js132862269490988452 0
-80C:\Users\Ivan\Documents\GitHub\test_for_GWeb\src\sass\utils\_similar_styles.scss132860432813854151 0
+80C:\Users\Ivan\Documents\GitHub\test_for_GWeb\src\sass\utils\_similar_styles.scss132862950571358818 0
 70C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\pn\events.js132862269467767292 0
 71C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\ws\browser.js132862269455097066 0
 96C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\es-abstract\2015\CreateDataProperty.js132862269479796213 0
@@ -2312,6 +2312,7 @@
 69C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\on-finished132862269459604889 1
 90C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\posthtml-expressions\lib\tags.js132862269464154622 0
 108C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\postcss-modules-scope\node_modules\postcss\LICENSE132862269460725483 0
+67C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\prev.dcd580d6.png132862565754843113 0
 64C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\verror132862269462022020 1
 97C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\highlight.js\lib\languages\capnproto.js132862269479427200 0
 76C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\lightbox2\dist\css132862443521126322 1
@@ -14429,6 +14430,7 @@
 83C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\@parcel\core\src\utils.js132862269480498956 0
 96C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\core-js\features\instance\find-last.js132862269490649354 0
 91C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\core-js\features\instance\find.js132862269490749088 0
+72C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.7576ef64.css.map132862565775778037 0
 92C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\core-js\features\instance\flags.js132862269490908662 0
 91C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\core-js\features\instance\flat.js132862269491108131 0
 95C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\core-js\features\instance\for-each.js132862269491427282 0
@@ -15271,6 +15273,7 @@
 89C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\caniuse-lite\data\regions\PM.js132862269487799134 0
 89C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\caniuse-lite\data\regions\PN.js132862269487809102 0
 89C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\caniuse-lite\data\regions\PS.js132862269487988632 0
+67C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.20cbd12f.js132862565775658423 0
 89C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\caniuse-lite\data\regions\PT.js132862269487998599 0
 89C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\caniuse-lite\data\regions\PW.js132862269488058440 0
 89C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\caniuse-lite\data\regions\PY.js132862269488068412 0
@@ -16558,6 +16561,7 @@
 87C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\@babel\helper-hoist-variables132862269458906754 1
 86C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\@babel\helper-module-imports132862269462580522 1
 84C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\@babel\helper-plugin-utils132862269458906754 1
+72C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.ff324149.css.map132862565775728172 0
 85C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\@babel\helper-simple-access132862269458926701 1
 73C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\@babel\template132862269466009822 1
 73C:\Users\Ivan\Documents\GitHub\test_for_GWeb\node_modules\@babel\traverse132862269473735486 1
@@ -16985,6 +16989,7 @@
 73C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\cases8@2x.2091ab73.webp132862551174815285 0
 72C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\cases8@2x.3d77ec88.jpg132862551175742802 0
 68C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\close.b9352065.png132862551175473519 0
+68C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\close.e6e826de.png132862565735943678 0
 70C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\contact.1f6aa2ee.jpg132862429324448699 0
 71C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\contact.b19ebea0.webp132862429317247966 0
 71C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\contact.c79f6486.webp132862551175014759 0
@@ -16993,13 +16998,20 @@
 74C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\contact@2x.ab7cb2b4.webp132862551174984837 0
 74C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\contact@2x.bd6bf0ee.webp132862429317247966 0
 71C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.00e3fb6e.js.map132862551177109145 0
-68C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.612625cb.css132862557986682312 0
-72C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.612625cb.css.map132862557986692285 0
+71C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.20cbd12f.js.map132862565775787738 0
+68C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.612625cb.css132862952120757735 0
+72C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.612625cb.css.map132862952120777925 0
+68C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.7576ef64.css132862565775628437 0
+67C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.9be1efa6.js132862565775658423 0
+71C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.9be1efa6.js.map132862565775787738 0
 68C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.c75ab014.css132862429345149869 0
 72C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.c75ab014.css.map132862429345179792 0
 68C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.f74cb80c.css132862551175862482 0
-60C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.html132862551177218854 0
+68C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.ff324149.css132862565775658423 0
+60C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\index.html132862565775658423 0
+70C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\loading.46e1ff58.gif132862565728473667 0
 70C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\loading.b251806e.gif132862551175014759 0
+67C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\next.86169bb8.png132862565771309402 0
 67C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\next.961a11dc.png132862551176032030 0
 70C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\people.140da9be.webp132862551175044676 0
 69C:\Users\Ivan\Documents\GitHub\test_for_GWeb\dist\people.86375456.jpg132862551176042000 0
