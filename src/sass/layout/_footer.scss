@@ -20,6 +20,14 @@
   width: 35px;
   height: 35px;
   fill: var(--secondary-text-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    fill: var(--acent-color);
+
+    .current-color-icon {
+      fill: var(--another-text-color);
+    }
+  }
 }
 .footer-rights {
   font-weight: 400;

@@ -62,4 +62,12 @@
     padding-top: 78px;
     padding-bottom: 82px;
   }
+  .callback-form-input {
+    &::placeholder {
+      &:focus {
+        border: none;
+        color: yellow;
+      }
+    }
+  }
 }
