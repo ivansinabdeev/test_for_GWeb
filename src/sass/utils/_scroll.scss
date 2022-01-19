@@ -1,0 +1,25 @@
+.scroll {
+  &__button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    opacity: 0.6;
+
+    display: none;
+
+    transition: opacity 400ms;
+
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+    &.show {
+      display: block;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
